@@ -237,7 +237,6 @@ def convert(azstr):
 app = QApplication(sys.argv)
 form = QWidget()
 edit1 = QTextEdit()
-edit1.setText("Hello")
 edit2 = QTextEdit()
 edit2.setLayoutDirection(Qt.RightToLeft)
 edit2.setAlignment(Qt.AlignRight)
